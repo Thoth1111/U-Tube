@@ -1,0 +1,43 @@
+html {
+    display: block;
+}
+#head-container {
+    background-color: #000000;
+    font: 10px Roboto, Arial, Sans-Serif;
+    padding: 0px, 16px;
+}
+.head {
+    display: inline-block;
+}
+#start {
+    margin: 20px;
+}
+#nav-title {
+    margin-top: -34px;
+    margin-inline-start: 38px;
+    color:white;
+    font: Sans-Serif Bold;
+    font-size: large;
+    font-stretch: ultra-condensed;
+  }
+sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
+#search-bar {
+    color: lightgrey;
+   padding: 1px, 0px;
+    margin-inline-start: 100px;
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    border-radius: 25px;
+    border-color: hsla(0, 0%, 53.3%, 0.4);
+}
+#Search-icon {
+
+}
+body {
+    background-color: #212121;  
+ }
+  
