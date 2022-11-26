@@ -1,20 +1,46 @@
 html {
     display: block;
+    margin: 0px;
+    width:100%;
+}
+body {
+    background-color: #212121;  
 }
 #head-container {
     background-color: #000000;
     font: 10px Roboto, Arial, Sans-Serif;
     padding: 0px, 16px;
+    height: 70px;
 }
 .head {
     display: inline-block;
+    justify-content: center;
 }
-#start {
-    margin: 20px;
+.head-elements {
+    box-sizing: content-box;
+    justify-items: flex-start;
+}
+#menu div {
+    height:2px;
+    background-color: whitesmoke;
+    margin: 5px 0px;
+    border-radius: 25%;
+}
+#menu {
+    margin-inline-start: 20px;
+    margin-top: 30px;
+    margin-bottom: -39px;
+    width: 20px;
+    display:block;
+    height: 20px;
+}
+#logo {
+    margin-inline-start: 66px;
+    margin-top: 10px;
 }
 #nav-title {
-    margin-top: -34px;
-    margin-inline-start: 38px;
+    margin-top: -33px;
+    margin-inline-start: 100px;
     color:white;
     font: Sans-Serif Bold;
     font-size: large;
@@ -25,19 +51,36 @@ sup {
     font-size: smaller;
   }
 #search-bar {
+    padding-left: 0px;
     color: lightgrey;
-   padding: 1px, 0px;
-    margin-inline-start: 100px;
-    width: 200px;
-    height: 25px;
+    margin-inline-start: 200px;
+    width: 500px;
+    height: 26px;
     background-color: black;
     border-radius: 25px;
     border-color: hsla(0, 0%, 53.3%, 0.4);
 }
-#Search-icon {
-
+#search-icon {
+    margin-top: 20px;
+    margin-bottom: -8px;
+    width:30px;
 }
-body {
-    background-color: #212121;  
- }
-  
+#mic {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: -8px;
+    width:30px;
+}
+#bell {
+    margin-inline-start: 270px;
+    margin-bottom: -5px;
+    height: 20px;
+    width: 22px;
+}
+#avatar {
+    margin-inline-start: 25px;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin-right: -10px;
+    width: 40px;
+}
