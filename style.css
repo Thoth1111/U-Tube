@@ -4,13 +4,14 @@ html {
     width:100%;
 }
 body {
-    background-color: #212121;  
+    background-color: black;  
 }
 #head-container {
+    box-sizing: content-box;
     background-color: #000000;
     font: 10px Roboto, Arial, Sans-Serif;
     padding: 0px, 16px;
-    height: 70px;
+    height: 64px;
 }
 .head {
     display: inline-block;
@@ -21,7 +22,7 @@ body {
     justify-items: flex-start;
 }
 #menu div {
-    height:2px;
+    height:1px;
     background-color: whitesmoke;
     margin: 5px 0px;
     border-radius: 25%;
@@ -83,4 +84,9 @@ sup {
     margin-bottom: -15px;
     margin-right: -10px;
     width: 40px;
+}
+#video-container {
+    margin-top: 0px;
+    margin-left: 100px;
+    background-color: #000000;
 }
